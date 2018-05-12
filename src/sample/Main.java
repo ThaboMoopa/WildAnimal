@@ -14,7 +14,7 @@ public class Main extends Application {
         primaryStage.setTitle("Wild Animals");
         primaryStage.setScene(new Scene(root, 735, 590));
         primaryStage.show();
-        System.out.println("Test");
+        System.out.println("Delete");
     }
 
 
