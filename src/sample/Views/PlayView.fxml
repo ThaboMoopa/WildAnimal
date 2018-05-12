@@ -19,7 +19,7 @@
       <RowConstraints />
    </rowConstraints>
    <children>
-      <VBox alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="741.0" prefWidth="728.0">
+      <VBox alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="741.0" prefWidth="722.0">
          <children>
             <ImageView fx:id="imageView" fitHeight="274.0" fitWidth="722.0" pickOnBounds="true" preserveRatio="true" />
             <Label text="What is the name of this animal?" textFill="#c3499e">
