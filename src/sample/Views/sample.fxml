@@ -27,7 +27,7 @@
                <image>
                   <Image url="@../images/maxresdefault.jpg" />
                </image></ImageView>
-            <Label alignment="CENTER" prefHeight="48.0" prefWidth="733.0" text="Hello, What is your name" textFill="#c3499e">
+            <Label alignment="CENTER" prefHeight="48.0" prefWidth="733.0" text="Hello, What is your name?" textFill="#c3499e">
                <font>
                   <Font name="Marker Felt Thin" size="36.0" />
                </font>

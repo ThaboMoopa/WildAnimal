@@ -48,7 +48,7 @@ public class PersonController implements ActionListener {
            Stage primaryStage = new Stage();
            Parent root = FXMLLoader.load(getClass().getResource("../Views/PlayView.fxml"));
            primaryStage.setTitle("Play View");
-           primaryStage.setScene(new Scene(root, 600, 475));
+           primaryStage.setScene(new Scene(root, 735, 590));
            primaryStage.show();
        }
        catch(IOException ex)
