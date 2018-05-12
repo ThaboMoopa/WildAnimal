@@ -4,6 +4,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -21,7 +22,10 @@
    <children>
       <VBox alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="741.0" prefWidth="722.0">
          <children>
-            <ImageView fx:id="imageView" fitHeight="274.0" fitWidth="722.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imageView" fitHeight="274.0" fitWidth="722.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/maxresdefault.jpg" />
+               </image></ImageView>
             <Label text="What is the name of this animal?" textFill="#c3499e">
                <font>
                   <Font name="Marker Felt Thin" size="36.0" />
