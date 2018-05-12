@@ -6,8 +6,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.security.SecureRandom;
-
 public class Main extends Application {
 
     @Override
@@ -16,6 +14,7 @@ public class Main extends Application {
         primaryStage.setTitle("Wild Animals");
         primaryStage.setScene(new Scene(root, 735, 590));
         primaryStage.show();
+        System.out.println("Test");
     }
 
 
