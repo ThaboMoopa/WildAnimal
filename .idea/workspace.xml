@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb5b5c9-08f1-4d7e-b409-1f8b9a4beb63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/thabomoopa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wild Animals/sample/Controllers/PersonController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wild Animals/sample/Controllers/PlayController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wild Animals/sample/Domain/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wild Animals/sample/Domain/Play.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wild Animals/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wild Animals/sample/Views/PlayView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wild Animals/sample/Views/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wild Animals/sample/images/buffalo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,6 +49,45 @@
     <option name="y" value="36" />
     <option name="width" value="1386" />
     <option name="height" value="665" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WildAnimal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WildAnimal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WildAnimal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WildAnimal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WildAnimal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WildAnimal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WildAnimal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WildAnimal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -143,6 +169,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="adb5b5c9-08f1-4d7e-b409-1f8b9a4beb63" name="Default" comment="" />
@@ -150,16 +179,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526159155248</updated>
-      <workItem from="1526159167225" duration="194000" />
+      <workItem from="1526159167225" duration="516000" />
     </task>
+    <task id="LOCAL-00001" summary="TEst merger">
+      <created>1526159474401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526159474401</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194000" />
+    <option name="totallyTimeSpent" value="516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="36" width="1386" height="665" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -193,6 +229,13 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TEst merger" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEst merger" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
