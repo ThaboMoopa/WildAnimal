@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb5b5c9-08f1-4d7e-b409-1f8b9a4beb63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/WildAnimal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/elephant.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/leopard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/lion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/rhinoceros.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="adb5b5c9-08f1-4d7e-b409-1f8b9a4beb63" name="Default" comment="9:15">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/PlayController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -36,6 +31,15 @@
               <folding>
                 <element signature="e#2837#2848#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -126,6 +130,11 @@
             <path>
               <item name="WildAnimal" type="b2602c69:ProjectViewProjectNode" />
               <item name="WildAnimal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WildAnimal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WildAnimal" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WildAnimal" type="b2602c69:ProjectViewProjectNode" />
@@ -262,7 +271,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526159155248</updated>
-      <workItem from="1526159167225" duration="10745000" />
+      <workItem from="1526159167225" duration="11524000" />
     </task>
     <task id="LOCAL-00001" summary="TEst merger">
       <created>1526159474401</created>
@@ -292,11 +301,25 @@
       <option name="project" value="LOCAL" />
       <updated>1526195297735</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="9:15">
+      <created>1526195727386</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526195727386</updated>
+    </task>
+    <task id="LOCAL-00006" summary="9:15">
+      <created>1526196238005</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1526196238005</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10745000" />
+    <option name="totallyTimeSpent" value="11524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="36" width="1386" height="665" extended-state="0" />
@@ -371,7 +394,8 @@
     <MESSAGE value="TEst merger" />
     <MESSAGE value="1.28 am update" />
     <MESSAGE value="9.08am" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.08am" />
+    <MESSAGE value="9:15" />
+    <option name="LAST_COMMIT_MESSAGE" value="9:15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -434,6 +458,13 @@
           <folding>
             <element signature="e#2837#2848#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>
