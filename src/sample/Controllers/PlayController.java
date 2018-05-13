@@ -19,6 +19,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.ResourceBundle;
 
+import static javafx.application.Platform.exit;
+
 /**
  * Created by thabomoopa on 12/05/2018.
  */
@@ -62,7 +64,7 @@ public class PlayController implements ActionListener, Initializable {
         System.out.println("intializer");
 
 
-        Play play = new Play();
+
 
     }
     @Override
@@ -120,6 +122,24 @@ public class PlayController implements ActionListener, Initializable {
 
     public void buttonPressed(javafx.event.ActionEvent actionEvent) {
 
+        Play play = new Play();
+        play.setName(txtAnswer.getText());
+        String value = generateRandomAnimal();
+        String valueToCompare = play.getName();
+        int count = 0;
+        do{
+            if(value.equalsIgnoreCase(valueToCompare)){
+                System.out.println("Congratulation");
+                exit();
+            }
+            else{
+                count++;
+                System.out.println("Wrong answer try again!");
+            }
+
+        }while(count <=2);
+
+        System.out.println(play.getName());
 
         System.out.println("Pressed");
     }
