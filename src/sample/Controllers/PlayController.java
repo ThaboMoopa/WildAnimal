@@ -9,6 +9,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 import sample.Domain.Play;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -19,13 +20,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.ResourceBundle;
 
-import static javafx.application.Platform.exit;
-
 /**
  * Created by thabomoopa on 12/05/2018.
  */
 public class PlayController implements ActionListener, Initializable {
 
+    private static final Object URL = "";
+    private static final Object ResourceBundle = "";
     private Play play;
     private String[][] animals;
     SecureRandom random = new SecureRandom();
@@ -41,6 +42,7 @@ public class PlayController implements ActionListener, Initializable {
 
     @FXML
     private Button btnAnswer;
+    private String val = "";
 
 
 
@@ -55,17 +57,20 @@ public class PlayController implements ActionListener, Initializable {
         //System.out.println("intializer");
         //System.out.println(imageView.getImage());
 
-        String url = "src/sample/images/"+generateRandomAnimal();
-        System.out.println(url);
-        File file = new File(url);
-        Image image = new Image(file.toURI().toString());
-        imageView.setImage(image);
+
         //imageView.setImage(animals[0][0]);
         System.out.println("intializer");
 
+        displayImage();
 
 
+    }
 
+    public void displayImage(){
+        String url = "src/sample/images/"+generateRandomAnimal();
+        File file = new File(url);
+        Image image = new Image(file.toURI().toString());
+        imageView.setImage(image);
     }
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -75,6 +80,7 @@ public class PlayController implements ActionListener, Initializable {
     public String generateRandomAnimal(){
         animals = new String[][]{{"lion","lion.png"}, {"Elephant","elephant.png"},{"Rhinoceros","rhinoceros.png"},{"Leopard","leopard.png"},{"Buffalo","buffalo.png"}};
         String url = "";
+
         SecureRandom random = new SecureRandom();
         int newIndex = random.nextInt(animals.length);
         int current = -1;
@@ -91,6 +97,7 @@ public class PlayController implements ActionListener, Initializable {
         String name = animals[newIndex][0];
         //txtAnimal = new Label(name);
         myLabel.setText(shuffle(name));
+        val = url;
         return url;
     }
 
@@ -124,20 +131,38 @@ public class PlayController implements ActionListener, Initializable {
 
         Play play = new Play();
         play.setName(txtAnswer.getText());
-        String value = generateRandomAnimal();
+
+        //System.out.println(s.substring(0, s.length() - 2));
+
+        //String val = generateRandomAnimal();
+
+
+        String value = val.substring(0, val.length() - 4);
         String valueToCompare = play.getName();
-        int count = 0;
-        do{
-            if(value.equalsIgnoreCase(valueToCompare)){
+        int count;
+        for(count = 0; count <=2; count++){
+            //if(value.equals(valueToCompare))
+                if(value.equalsIgnoreCase(valueToCompare)){
                 System.out.println("Congratulation");
-                exit();
+                JOptionPane.showMessageDialog(null, "Congratulations you got it right!!", "Congratulation", JOptionPane.PLAIN_MESSAGE);
+                break;
             }
             else{
-                count++;
+
+                displayImage();
                 System.out.println("Wrong answer try again!");
             }
 
-        }while(count <=2);
+            System.out.println(count);
+
+
+        }
+
+            //JOptionPane.showConfirmDialog(null,
+                   // "You have exceded your chances, do you want to try again", "Game Over", JOptionPane.YES_NO_OPTION);
+
+
+
 
         System.out.println(play.getName());
 
