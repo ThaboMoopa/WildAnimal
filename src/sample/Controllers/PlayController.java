@@ -1,5 +1,6 @@
 package sample.Controllers;
 
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -132,6 +133,7 @@ public class PlayController implements ActionListener, Initializable {
         Play play = new Play();
         play.setName(txtAnswer.getText());
 
+
         //System.out.println(s.substring(0, s.length() - 2));
 
         //String val = generateRandomAnimal();
@@ -139,23 +141,34 @@ public class PlayController implements ActionListener, Initializable {
 
         String value = val.substring(0, val.length() - 4);
         String valueToCompare = play.getName();
+        play.setName("");
+        int dep = 3;
         int count;
-        for(count = 0; count <=2; count++){
+        for(count = 1; count <=3; count++){
             //if(value.equals(valueToCompare))
                 if(value.equalsIgnoreCase(valueToCompare)){
                 System.out.println("Congratulation");
                 JOptionPane.showMessageDialog(null, "Congratulations you got it right!!", "Congratulation", JOptionPane.PLAIN_MESSAGE);
+                Platform.exit();
                 break;
             }
             else{
+                    dep--;
+                    if(dep == 0) {
+                        JOptionPane.showMessageDialog(null, "Game Over you finished your chances!!", "Wrong", JOptionPane.ERROR_MESSAGE);
+                        break;
+                    }
+                    else {
+                        txtAnswer.setText("");
+                        //
 
-                displayImage();
-                System.out.println("Wrong answer try again!");
+                        System.out.println(count);
+
+                    }
+
             }
-
-            System.out.println(count);
-
-
+            JOptionPane.showMessageDialog(null, "Wrong answer, you have " + dep + " chances left!!", "Wrong", JOptionPane.ERROR_MESSAGE);
+            displayImage();
         }
 
             //JOptionPane.showConfirmDialog(null,
